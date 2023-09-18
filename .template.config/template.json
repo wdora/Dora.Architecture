@@ -1,11 +1,7 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "author": "dora",
-    "classifications": [
-        "dora",
-        "architecture"
-    ],
-    "identity": "Dora.CleanArchitecture.Template",
+    "author": "wdora",
+    "identity": "Wdora.CleanArchitecture.Template",
     "name": "ASP.NET Clean Architecture Solution",
     "sourceName": "Dora.Architecture",
     "shortName": "dora-ca"

@@ -5,25 +5,27 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D782AC8-E9C7-4AE4-AFD3-1653C9E99888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dora.Architecture.Domain", "src\Dora.Architecture.Domain\Dora.Architecture.Domain.csproj", "{E078D3BA-DB46-4454-B65C-8F26A0A1C2E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dora.Architecture.Domain", "src\Dora.Architecture.Domain\Dora.Architecture.Domain.csproj", "{E078D3BA-DB46-4454-B65C-8F26A0A1C2E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dora.Architecture.Application", "src\Dora.Architecture.Application\Dora.Architecture.Application.csproj", "{8AD2E597-6FB5-4B6E-9E49-F7B8BA6B6171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dora.Architecture.Application", "src\Dora.Architecture.Application\Dora.Architecture.Application.csproj", "{8AD2E597-6FB5-4B6E-9E49-F7B8BA6B6171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dora.Architecture.Infrastructure", "src\Dora.Architecture.Infrastructure\Dora.Architecture.Infrastructure.csproj", "{50808527-0C62-4779-8C2B-D88E148BC0FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dora.Architecture.Infrastructure", "src\Dora.Architecture.Infrastructure\Dora.Architecture.Infrastructure.csproj", "{50808527-0C62-4779-8C2B-D88E148BC0FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dora.Architecture.API", "src\Dora.Architecture.API\Dora.Architecture.API.csproj", "{372C9488-4A95-46B4-9709-451AD48FED51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dora.Architecture.API", "src\Dora.Architecture.API\Dora.Architecture.API.csproj", "{372C9488-4A95-46B4-9709-451AD48FED51}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7CE3C264-E264-4B12-A20B-F91FC6D3B060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dora.Architecture.UnitTests", "tests\Dora.Architecture.UnitTests\Dora.Architecture.UnitTests.csproj", "{C815A759-710B-403C-A901-E4CCA44DAB0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dora.Architecture.UnitTests", "tests\Dora.Architecture.UnitTests\Dora.Architecture.UnitTests.csproj", "{C815A759-710B-403C-A901-E4CCA44DAB0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37B8D932-B63D-4DA1-B6E9-871DADC0B888}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E078D3BA-DB46-4454-B65C-8F26A0A1C2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -47,11 +49,17 @@ Global
 		{C815A759-710B-403C-A901-E4CCA44DAB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C815A759-710B-403C-A901-E4CCA44DAB0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E078D3BA-DB46-4454-B65C-8F26A0A1C2E2} = {9D782AC8-E9C7-4AE4-AFD3-1653C9E99888}
 		{8AD2E597-6FB5-4B6E-9E49-F7B8BA6B6171} = {9D782AC8-E9C7-4AE4-AFD3-1653C9E99888}
 		{50808527-0C62-4779-8C2B-D88E148BC0FB} = {9D782AC8-E9C7-4AE4-AFD3-1653C9E99888}
 		{372C9488-4A95-46B4-9709-451AD48FED51} = {9D782AC8-E9C7-4AE4-AFD3-1653C9E99888}
 		{C815A759-710B-403C-A901-E4CCA44DAB0E} = {7CE3C264-E264-4B12-A20B-F91FC6D3B060}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E14239F-D14C-404D-94B6-826458839C50}
 	EndGlobalSection
 EndGlobal
