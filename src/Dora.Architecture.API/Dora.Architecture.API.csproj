@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Dora.Architecture.Application\Dora.Architecture.Application.csproj" />
     <ProjectReference Include="..\Dora.Architecture.Domain\Dora.Architecture.Domain.csproj" />
+    <ProjectReference Include="..\Dora.Architecture.EntityFrameworkCore\Dora.Architecture.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\Dora.Architecture.Infrastructure\Dora.Architecture.Infrastructure.csproj" />
   </ItemGroup>
 

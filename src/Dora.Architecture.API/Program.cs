@@ -1,11 +1,13 @@
 using Dora.Architecture.API;
 using Dora.Architecture.Application;
+using Dora.Architecture.EntityFrameworkCore;
 using Dora.Architecture.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services
+    .AddEfCore()
     .AddInfrastructure()
     .AddApplication()
     .AddWebApiServices();

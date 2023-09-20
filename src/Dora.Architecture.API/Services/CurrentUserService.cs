@@ -1,4 +1,4 @@
-﻿using Dora.Architecture.Application.Common.Interfaces;
+﻿using Dora.Architecture.Application.Common.Interfaces.Services;
 using System.Security.Claims;
 
 namespace Dora.Architecture.API.Services

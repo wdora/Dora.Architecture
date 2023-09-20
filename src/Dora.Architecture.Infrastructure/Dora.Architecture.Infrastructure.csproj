@@ -16,9 +16,4 @@
     <ProjectReference Include="..\Dora.Architecture.Domain\Dora.Architecture.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Logging\" />
-  </ItemGroup>
-
 </Project>

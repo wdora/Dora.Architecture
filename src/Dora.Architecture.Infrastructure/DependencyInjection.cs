@@ -1,4 +1,4 @@
-﻿using Dora.Architecture.Application.Common.Interfaces;
+﻿using Dora.Architecture.Application.Common.Interfaces.Services;
 using Dora.Architecture.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 

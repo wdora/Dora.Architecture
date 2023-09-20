@@ -1,5 +1,5 @@
 ﻿using Dora.Architecture.API.Services;
-using Dora.Architecture.Application.Common.Interfaces;
+using Dora.Architecture.Application.Common.Interfaces.Services;
 
 namespace Dora.Architecture.API;
 
