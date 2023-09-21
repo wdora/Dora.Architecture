@@ -1,8 +1,30 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "wdora",
-    "identity": "Wdora.CleanArchitecture.Template",
+    "identity": "Dora.CleanArchitecture.Template",
     "name": "ASP.NET Clean Architecture Solution",
+    "shortName": "dora-ca",
+    "tags": {
+        "language": "c#",
+        "type": "solution"
+    },
+    "classifications": [
+        "Web",
+        "Clean Architecture"
+    ],
+    "preferNameDirectory": true,
     "sourceName": "Dora.Architecture",
-    "shortName": "dora-ca"
+    "sources": [
+        {
+            "exclude": [
+                ".git/**",
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                ".template.config/**",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json"
+            ]
+        }
+    ]
 }
