@@ -2,6 +2,7 @@ using Dora.Architecture.API;
 using Dora.Architecture.Application;
 using Dora.Architecture.EntityFrameworkCore;
 using Dora.Architecture.Infrastructure;
+using Hangfire;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseHangfireDashboard();
 
 app.UseAuthorization();
 
